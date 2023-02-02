@@ -1,6 +1,6 @@
 # ET-Theatrum-Orbis-Terrarum
 
-![thumbnail](thumbnail.png)
+![thumbnail](thumbnail.jpg)
 
 [![GitHub all releases](https://img.shields.io/github/downloads/Cccc-owo/ET-Theatrum-Orbis-Terrarum/total?label=GitHub%20downloads&style=flat-square)](https://github.com/Cccc-owo/ET-Theatrum-Orbis-Terrarum/releases)
 [![GitHub tag](https://img.shields.io/github/v/release/Cccc-owo/ET-Theatrum-Orbis-Terrarum?sort=semver&style=flat-square)](https://github.com/Cccc-owo/ET-Theatrum-Orbis-Terrarum/tags)
