@@ -1,3 +1,5 @@
 Theatrum Orbis Terrarum translates to "Theatre of the World" and is considered to be the first true modern atlas. It was created in 1570 by flemish cartographer Abraham Ortelius. This mod tries to bring its look and feel to Europa Universalis IV.
 
-Works with ET.
+Thanks [url=https://steamcommunity.com/id/KRY0777]Kryo[/url] for [url=https://steamcommunity.com/sharedfiles/filedetails/?id=570256235]the original mod[/url].
+
+[b]Works with ET.[/b]

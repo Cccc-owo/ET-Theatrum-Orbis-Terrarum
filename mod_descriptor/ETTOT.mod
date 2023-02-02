@@ -5,6 +5,6 @@ tags={
 dependencies={
 	"Extended Timeline"
 }
-picture="thumbnail.png"
+picture="thumbnail.jpg"
 name="Theatrum Orbis Terrarum for ET"
 supported_version="1.34.*"
