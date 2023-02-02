@@ -35,6 +35,6 @@ Fork from [original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=
 
 ```7z.exe``` 和 ```7z.dll``` 提取自官方 7-Zip 22.01 (2022-07-15)
 
-## 作者 / Author
+## 鸣谢 / Credits
 
-Cccc_
+[KRYO](https://steamcommunity.com/id/KRY0777) for [original mod](https://steamcommunity.com/sharedfiles/filedetails/?id=570256235)
