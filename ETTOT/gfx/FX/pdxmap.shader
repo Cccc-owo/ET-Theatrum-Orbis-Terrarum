@@ -570,7 +570,7 @@ PixelShader =
 				vFoWColor = vFoWColor * 0.6f; //Kryo's edit for color fog of war
 				vTerrainDiffuseSample.rgb = GetOverlay( vTerrainDiffuseSample.rgb, TerrainColor, 0.5f );
 				
-				//TestCam scales the camera height above sea level to the interval (0,¡Þ) with interest in making the transition start height = .5
+				//TestCam scales the camera height above sea level to the interval (0,âˆž) with interest in making the transition start height = .5
 				float testCam = ( ( vCamPos.y - WATER_HEIGHT ) * .002f );
 				float colorRange = 1.0f;
 				if ( testCam < 1.0f )

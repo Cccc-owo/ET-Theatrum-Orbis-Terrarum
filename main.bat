@@ -17,7 +17,7 @@ ECHO path="mod/%mod_dir%" >> output\%mod_desc%
 xcopy mod_descriptor\%mod_desc% output\%mod_dir%\ /Q /C /Y
 ren output\%mod_dir%\%mod_desc% descriptor.mod
 xcopy CHANGELOG.md output\%mod_dir%\ /Q /C /Y
-xcopy thumbnail.jpg output\%mod_dir%\ /Q /C /Y
+xcopy thumbnail.png output\%mod_dir%\ /Q /C /Y
 ECHO.
 ECHO Compressing the mod files...
 7z.exe a mod.zip .\output\*

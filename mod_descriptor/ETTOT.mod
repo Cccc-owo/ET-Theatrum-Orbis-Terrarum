@@ -1,4 +1,4 @@
-version="1.0"
+version="1.1"
 tags={
 	"Map"
 }
@@ -7,4 +7,4 @@ dependencies={
 }
 picture="thumbnail.jpg"
 name="Theatrum Orbis Terrarum for ET"
-supported_version="1.34.*"
+supported_version="1.35.*"

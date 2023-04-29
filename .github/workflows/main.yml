@@ -24,13 +24,13 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.3.0
+        uses: actions/checkout@v3
 
       - name: Run integration script
         run: ./main.bat
 
       - name: Upload generated files
-        uses: actions/upload-artifact@v3.1.2
+        uses: actions/upload-artifact@v3
         with:
           name: ETTOT
           path: mod.zip
@@ -41,7 +41,7 @@ jobs:
     runs-on: windows-latest
     if: startsWith(github.ref, 'refs/tags/') != true
     steps:
-      - uses: actions/download-artifact@v3.0.2
+      - uses: actions/download-artifact@v3
         with:
           name: ETTOT
 
@@ -61,9 +61,9 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/')
     steps:
       - name: Checkout
-        uses: actions/checkout@v3.3.0
+        uses: actions/checkout@v3
 
-      - uses: actions/download-artifact@v3.0.2
+      - uses: actions/download-artifact@v3
         with:
           name: ETTOT
 
@@ -73,7 +73,7 @@ jobs:
       #    unzip mod.zip -d temp
 
       - name: Release Action
-        uses: softprops/action-gh-release@v0.1.15
+        uses: softprops/action-gh-release@v1
         with:
           files: |
             mod.zip
